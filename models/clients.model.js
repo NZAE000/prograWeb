@@ -1,4 +1,5 @@
 pool = require("../utils/db.js");
+
 module.exports = {
     async list() {
         try {
@@ -12,3 +13,4 @@ module.exports = {
         }
     }
 }; 
+
